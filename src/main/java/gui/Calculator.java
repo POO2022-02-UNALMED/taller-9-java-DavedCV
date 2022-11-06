@@ -148,8 +148,6 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 				case "-":
 					displayText.setText(Double.toString(Integer.parseInt(number1)-Integer.parseInt(number2)));
 					break;
-				default:
-					throw new IllegalStateException("Unexpected value: " + operator);
 			}
 			bandera = false;
 			number1 = "";
